@@ -1,0 +1,12 @@
+numpy>=1.24
+scipy>=1.10
+# CuPy — install the variant matching your CUDA version:
+#   CUDA 12.x:  pip install cupy-cuda12x
+#   CUDA 11.x:  pip install cupy-cuda11x
+#   No GPU:     benchmark runs CPU-only without CuPy installed
+# psutil — optional, enables memory reporting
+psutil>=5.9
+# Stage 7 (monotonic MLP) needs PyTorch; --skip-mlp avoids the dependency.
+torch>=2.0
+# Stage 8 plot generation:
+matplotlib>=3.5
